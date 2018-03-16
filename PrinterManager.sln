@@ -5,10 +5,7 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrinterManager", "PrinterManager\PrinterManager.csproj", "{43B42F1E-E3F3-4870-9B28-F3236ABF5B23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Update", "..\Update\Update.csproj", "{5BB4E2F4-67A5-4CA5-9A9D-265368B78D74}"
-	ProjectSection(ProjectDependencies) = postProject
-		{43B42F1E-E3F3-4870-9B28-F3236ABF5B23} = {43B42F1E-E3F3-4870-9B28-F3236ABF5B23}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Update", "Update\Update.csproj", "{5BB4E2F4-67A5-4CA5-9A9D-265368B78D74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
