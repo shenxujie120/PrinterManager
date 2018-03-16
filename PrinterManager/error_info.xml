@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <errors>
+	 <error type="100" 	 msg="处理成功"/>
+	 <error type="00001" msg="系统异常"/>
+	 <error type="00002" msg="系统内部初始化异常"/>
+	 <error type="10000" msg="交易编码错误"/>
+	 <error type="10001" msg="信息非法，可能被篡改"/>
+	 <error type="10002" msg="传入数据格式错误"/>
+	 <error type="10003" msg="传入参数格式错误"/>
+	 <error type="10004" msg="传入参数错误"/>
+	 <error type="10005" msg="请求超时"/>	 
+	 
+	 <error type="20000" msg="该手机用户不存在"/>
+	 <error type="20001" msg="用户所在学校与当前打印设备不匹配"/>
+	 <error type="20002" msg="随机码不存在"/>
+	 <error type="20003" msg="随机码已失效"/>
+	 <error type="20004" msg="二维码解析失败"/>
+	 <error type="20005" msg="二维码已失效"/>
+	 
+	 <error type="30000" msg="打印机正常"/>
+	 <error type="30001" msg="打印机故障"/>
+	 <error type="30002" msg="打印机缺纸"/>
+	 
+	 <error type="40000" msg="该功能尚未开发"/>
+	 <error type="40001" msg="Adobe Acrobat组件出现错误"/>
+	 <error type="40002" msg="管理员密码错误"/>
+	 <error type="40003" msg="设备码不存在"/>
+	 <error type="40004" msg="首次使用，请更改设备信息"/>
+	 <error type="40005" msg="当前版本已是最新版本"/>
+	 <error type="40006" msg="网络连接异常"/>
+	 <error type="40007" msg="当前版本需要更新"/>
+	 <error type="40008" msg="当前目录下xml文件格式有误"/>
+  </errors>
