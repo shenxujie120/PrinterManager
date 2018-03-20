@@ -38,11 +38,10 @@ namespace PrinterManager
 
         private void Btn_confirm_Click(object sender, EventArgs e)
         {
-            string adminpwd = Data.AppConfig.AdminPwd;
-            flag = Confirmpwd();
-            if (flag)
+            if (Confirmpwd())
             {
-                this.DialogResult = DialogResult.OK;
+                FrmSetting sysInfo = new FrmSetting();
+                sysInfo.ShowDialog();
             }
             this.Dispose();
         }
@@ -57,7 +56,6 @@ namespace PrinterManager
 
         private void Btn_return_Click(object sender, EventArgs e)
         {
-            this.DialogResult = DialogResult.Cancel;
             this.Dispose();
         }
     }

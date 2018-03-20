@@ -58,11 +58,7 @@ namespace PrinterManager
             Function.Readadmin(Data.AppConfig.Deviceno);
             FrmAdminPwd adminpwd = new FrmAdminPwd();
             adminpwd.ShowDialog();
-            if (adminpwd.DialogResult==DialogResult.OK && adminpwd.Confirmpwd())
-            {
-                FrmSetting sysInfo = new FrmSetting();
-                sysInfo.ShowDialog();
-            }  
+ 
         }
         #endregion
         

@@ -57,8 +57,7 @@
     <ApplicationIcon>logo48.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>
-    </StartupObject>
+    <StartupObject>PrinterManager.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup>
