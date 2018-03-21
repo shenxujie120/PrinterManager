@@ -58,7 +58,6 @@ namespace PrinterManager
             Function.Readadmin(Data.AppConfig.Deviceno);
             FrmAdminPwd adminpwd = new FrmAdminPwd();
             adminpwd.ShowDialog();
- 
         }
         #endregion
         
